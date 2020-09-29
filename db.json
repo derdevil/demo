@@ -1,140 +1,142 @@
 {
-    "groupByDistro": [
-        {
-            "distributor": {
-                "isDistributorChecked" : true,
-                "name": "PT. Nomor Satu"
+    "list_distro": {
+        "groupByDistro": [
+            {
+                "distributor": {
+                    "isDistributorChecked" : true,
+                    "name": "PT. Nomor Satu"
+                },
+                "groupByPrincipal": [
+                    {
+                        "principal": {
+                            "name": "PT. 1 Satu"
+                        },
+                        "products": [
+                            {
+                                "isProductChecked" : true,
+                                "cart": {
+                                    "name": "Produk A"
+                                },
+                                "product": {
+                                    "_key": "54422363",
+                                    "name": "Produk A"
+                                }
+                            },
+                            {
+                                "isProductChecked" : true,
+                                "cart": {
+                                    "name": "Produk B"
+                                },
+                                "product": {
+                                    "_key": "54422363",
+                                    "name": "Produk B"
+                                }
+                            },
+                            {
+                                "isProductChecked" : true,
+                                "cart": {
+                                    "name": "Produk C"
+                                },
+                                "product": {
+                                    "_key": "54422363",
+                                    "name": "Produk C"
+                                }
+                            }
+                        ]
+                    }
+                ]
             },
-            "groupByPrincipal": [
-                {
-                    "principal": {
-                        "name": "PT. 1 Satu"
-                    },
-                    "products": [
-                        {
-                            "isProductChecked" : true,
-                            "cart": {
-                                "name": "Produk A"
-                            },
-                            "product": {
-                                "_key": "54422363",
-                                "name": "Produk A"
-                            }
+            {
+                "distributor": {
+                    "isDistributorChecked" : false,
+                    "name": "PT. Nomor Dua"
+                },
+                "groupByPrincipal": [
+                    {
+                        "principal": {
+                            "name": "PT. 2 Dua"
                         },
-                        {
-                            "isProductChecked" : true,
-                            "cart": {
-                                "name": "Produk B"
+                        "products": [
+                            {
+                                "isProductChecked" : false,
+                                "cart": {
+                                    "name": "Produk A"
+                                },
+                                "product": {
+                                    "_key": "54422363",
+                                    "name": "Produk A"
+                                }
                             },
-                            "product": {
-                                "_key": "54422363",
-                                "name": "Produk B"
-                            }
-                        },
-                        {
-                            "isProductChecked" : true,
-                            "cart": {
-                                "name": "Produk C"
+                            {
+                                "isProductChecked" : true,
+                                "cart": {
+                                    "name": "Produk B"
+                                },
+                                "product": {
+                                    "_key": "54422363",
+                                    "name": "Produk B"
+                                }
                             },
-                            "product": {
-                                "_key": "54422363",
-                                "name": "Produk C"
+                            {
+                                "isProductChecked" : true,
+                                "cart": {
+                                    "name": "Produk C"
+                                },
+                                "product": {
+                                    "_key": "54422363",
+                                    "name": "Produk C"
+                                }
                             }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "distributor": {
-                "isDistributorChecked" : false,
-                "name": "PT. Nomor Dua"
+                        ]
+                    }
+                ]
             },
-            "groupByPrincipal": [
-                {
-                    "principal": {
-                        "name": "PT. 2 Dua"
-                    },
-                    "products": [
-                        {
-                            "isProductChecked" : false,
-                            "cart": {
-                                "name": "Produk A"
-                            },
-                            "product": {
-                                "_key": "54422363",
-                                "name": "Produk A"
-                            }
+            {
+                "distributor": {
+                    "isDistributorChecked" : false,
+                    "name": "PT. Nomor Tiga"
+                },
+                "groupByPrincipal": [
+                    {
+                        "principal": {
+                            "name": "PT. 3 Tiga"
                         },
-                        {
-                            "isProductChecked" : true,
-                            "cart": {
-                                "name": "Produk B"
+                        "products": [
+                            {
+                                "isProductChecked" : false,
+                                "cart": {
+                                    "name": "Produk A"
+                                },
+                                "product": {
+                                    "_key": "54422363",
+                                    "name": "Produk A"
+                                }
                             },
-                            "product": {
-                                "_key": "54422363",
-                                "name": "Produk B"
-                            }
-                        },
-                        {
-                            "isProductChecked" : true,
-                            "cart": {
-                                "name": "Produk C"
+                            {
+                                "isProductChecked" : true,
+                                "cart": {
+                                    "name": "Produk B"
+                                },
+                                "product": {
+                                    "_key": "54422363",
+                                    "name": "Produk B"
+                                }
                             },
-                            "product": {
-                                "_key": "54422363",
-                                "name": "Produk C"
+                            {
+                                "isProductChecked" : true,
+                                "cart": {
+                                    "name": "Produk C"
+                                },
+                                "product": {
+                                    "_key": "54422363",
+                                    "name": "Produk C"
+                                }
                             }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "distributor": {
-                "isDistributorChecked" : false,
-                "name": "PT. Nomor Tiga"
-            },
-            "groupByPrincipal": [
-                {
-                    "principal": {
-                        "name": "PT. 3 Tiga"
-                    },
-                    "products": [
-                        {
-                            "isProductChecked" : false,
-                            "cart": {
-                                "name": "Produk A"
-                            },
-                            "product": {
-                                "_key": "54422363",
-                                "name": "Produk A"
-                            }
-                        },
-                        {
-                            "isProductChecked" : true,
-                            "cart": {
-                                "name": "Produk B"
-                            },
-                            "product": {
-                                "_key": "54422363",
-                                "name": "Produk B"
-                            }
-                        },
-                        {
-                            "isProductChecked" : true,
-                            "cart": {
-                                "name": "Produk C"
-                            },
-                            "product": {
-                                "_key": "54422363",
-                                "name": "Produk C"
-                            }
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "success": true
+                        ]
+                    }
+                ]
+            }
+        ],
+        "success": true   
+    }
 }
