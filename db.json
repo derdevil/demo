@@ -1,145 +1,140 @@
 {
-  "results": [
-    { 
-      "isNameChecked": false, 
-      "name": "Data A",
-      "data": [
+    "groupByDistro": [
         {
-          "isChecked": false,
-          "id": "A1",
-          "name": "Data A ke-1"
+            "distributor": {
+                "isDistributorChecked" : true,
+                "name": "PT. Nomor Satu"
+            },
+            "groupByPrincipal": [
+                {
+                    "principal": {
+                        "name": "PT. 1 Satu"
+                    },
+                    "products": [
+                        {
+                            "isProductChecked" : true,
+                            "cart": {
+                                "name": "Produk A"
+                            },
+                            "product": {
+                                "_key": "54422363",
+                                "name": "Produk A"
+                            }
+                        },
+                        {
+                            "isProductChecked" : true,
+                            "cart": {
+                                "name": "Produk B"
+                            },
+                            "product": {
+                                "_key": "54422363",
+                                "name": "Produk B"
+                            }
+                        },
+                        {
+                            "isProductChecked" : true,
+                            "cart": {
+                                "name": "Produk C"
+                            },
+                            "product": {
+                                "_key": "54422363",
+                                "name": "Produk C"
+                            }
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "isChecked": true,
-          "id": "A2",
-          "name": "Data A ke-2"
+            "distributor": {
+                "isDistributorChecked" : false,
+                "name": "PT. Nomor Dua"
+            },
+            "groupByPrincipal": [
+                {
+                    "principal": {
+                        "name": "PT. 2 Dua"
+                    },
+                    "products": [
+                        {
+                            "isProductChecked" : false,
+                            "cart": {
+                                "name": "Produk A"
+                            },
+                            "product": {
+                                "_key": "54422363",
+                                "name": "Produk A"
+                            }
+                        },
+                        {
+                            "isProductChecked" : true,
+                            "cart": {
+                                "name": "Produk B"
+                            },
+                            "product": {
+                                "_key": "54422363",
+                                "name": "Produk B"
+                            }
+                        },
+                        {
+                            "isProductChecked" : true,
+                            "cart": {
+                                "name": "Produk C"
+                            },
+                            "product": {
+                                "_key": "54422363",
+                                "name": "Produk C"
+                            }
+                        }
+                    ]
+                }
+            ]
         },
         {
-          "isChecked": true,
-          "id": "A3",
-          "name": "Data A ke-3"
-        },
-        {
-          "isChecked": false,
-          "id": "A4",
-          "name": "Data A ke-4"
+            "distributor": {
+                "isDistributorChecked" : false,
+                "name": "PT. Nomor Tiga"
+            },
+            "groupByPrincipal": [
+                {
+                    "principal": {
+                        "name": "PT. 3 Tiga"
+                    },
+                    "products": [
+                        {
+                            "isProductChecked" : false,
+                            "cart": {
+                                "name": "Produk A"
+                            },
+                            "product": {
+                                "_key": "54422363",
+                                "name": "Produk A"
+                            }
+                        },
+                        {
+                            "isProductChecked" : true,
+                            "cart": {
+                                "name": "Produk B"
+                            },
+                            "product": {
+                                "_key": "54422363",
+                                "name": "Produk B"
+                            }
+                        },
+                        {
+                            "isProductChecked" : true,
+                            "cart": {
+                                "name": "Produk C"
+                            },
+                            "product": {
+                                "_key": "54422363",
+                                "name": "Produk C"
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    },
-    { 
-      "isNameChecked": true, 
-      "name": "Data B",
-      "data": [
-        {
-          "isChecked": true,
-          "id": "B1",
-          "name": "Data B ke-1"
-        }
-      ]
-    },
-    { 
-      "isNameChecked": false, 
-      "name": "Data C",
-      "data": [
-        {
-          "isChecked": false,
-          "id": "C1",
-          "name": "Data C ke-1"
-        },
-        {
-          "isChecked": false,
-          "id": "C2",
-          "name": "Data C ke-2"
-        },
-        {
-          "isChecked": true,
-          "id": "C3",
-          "name": "Data C ke-3"
-        },
-        {
-          "isChecked": false,
-          "id": "C4",
-          "name": "Data C ke-4"
-        }
-      ]
-    },
-    { 
-      "isNameChecked": true, 
-      "name": "Data D",
-      "data": [
-        {
-          "isChecked": true,
-          "id": "D1",
-          "name": "Data D ke-1"
-        },
-        {
-          "isChecked": true,
-          "id": "D2",
-          "name": "Data D ke-2"
-        },
-        {
-          "isChecked": true,
-          "id": "D3",
-          "name": "Data D ke-3"
-        }
-      ]
-    },
-    { 
-      "isNameChecked": false, 
-      "name": "Data E",
-      "data": [
-        {
-          "isChecked": false,
-          "id": "E1",
-          "name": "Data E ke-1"
-        },
-        {
-          "isChecked": false,
-          "id": "E2",
-          "name": "Data E ke-2"
-        },
-        {
-          "isChecked": false,
-          "id": "E3",
-          "name": "Data E ke-3"
-        },
-        {
-          "isChecked": false,
-          "id": "E4",
-          "name": "Data E ke-4"
-        }
-      ]
-    },
-    { 
-      "isNameChecked": true, 
-      "name": "Data F",
-      "data": [
-        {
-          "isChecked": true,
-          "id": "F1",
-          "name": "Data F ke-1"
-        },
-        {
-          "isChecked": true,
-          "id": "F2",
-          "name": "Data F ke-2"
-        },
-        {
-          "isChecked": true,
-          "id": "F3",
-          "name": "Data F ke-3"
-        },
-        {
-          "isChecked": true,
-          "id": "F4",
-          "name": "Data F ke-4"
-        },
-        {
-          "isChecked": true,
-          "id": "F5",
-          "name": "Data F ke-5"
-        }
-      ]
-    }
-  ]
+    ],
+    "success": true
 }
